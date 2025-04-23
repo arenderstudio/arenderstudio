@@ -1,0 +1,16 @@
+body {
+    font-family: "Outfit", sans-serif!important;
+    font-optical-sizing: auto!important;
+    font-style: normal!important;
+}
+
+.bg-black{
+    background-color: black!important;
+}
+.logo{
+    width:5%;
+}
+
+.slides{
+    background-color: black;
+}
