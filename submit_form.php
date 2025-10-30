@@ -52,13 +52,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $mail->isSMTP();
             $mail->Host = 'smtp.gmail.com';
             $mail->SMTPAuth = true;
-            $mail->Username = 'aangadranjitsingh@gmail.com';
+            $mail->Username = '';
             $mail->Password = '';
             $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
             $mail->Port = 587;
 
             $mail->setFrom($email, $name);
-            $mail->addAddress('aangadranjitsingh@gmail.com');
+            $mail->addAddress('');
             $mail->Subject = 'New Contact Form Submission from A Render Studio';
             $mail->Body    = "Name: $name\nEmail: $email\nMessage:\n$message";
 
